@@ -108,6 +108,11 @@ body {
   /*show the menu when its parent has class "open"*/
 }
 
+.text-input {
+  height: 15%;
+
+}
+
 
 
 @media only screen and (max-width: 360px) {
