@@ -43,7 +43,7 @@ body {
 }
 
 .name {
-  font-weight:400;
+  font-weight: 400;
   color: #000;
 }
 
@@ -65,7 +65,7 @@ body {
 
 .receive {
   background-color: lightgreen;
-  border-radius:1rem;
+  border-radius: 1rem;
   padding: 10px 15px;
   display: inline-block;
 }
@@ -74,7 +74,7 @@ body {
   font-size: 10px;
   color: #9CA1A3;
   margin-top: 3%;
-  margin-left:1%;
+  margin-left: 1%;
 }
 
 .sent {
@@ -89,12 +89,12 @@ body {
 }
 
 #messages {
-  overflow-y:scroll;
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 
 .dropdown-toggle::before {
-  display:none !important;
+  display: none !important;
 }
 
 
@@ -108,44 +108,62 @@ body {
   /*show the menu when its parent has class "open"*/
 }
 
-@media all and (max-width: 968px) {
+
+
+@media only screen and (max-width: 360px) {
   .dropleft {
     position: absolute;
     right: -270px;
     bottom: 25px;
   }
-  
+
   .arrow {
     position: absolute;
     bottom: -15px;
   }
-  
+
   .picc {
     position: absolute;
     bottom: -9px;
   }
-  
+
   .search-icon {
     position: absolute;
     right: -140px;
     bottom: 15px;
   }
-  
+
   .paperclip-icon {
     position: absolute;
     right: -185px;
     bottom: 15px;
   }
-  
+
   .ellipsis-icon {
     position: absolute;
     right: -218px;
     bottom: 15px;
   }
-  
+
   #details-container {
     position: absolute;
     right: -50px;
+
+  }
+  
+  .text-input {
+    height: 15%;
     
+  }
+  
+  .user-details {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .arrow {
+    position: absolute;
+    bottom: -11px;
   }
 }
