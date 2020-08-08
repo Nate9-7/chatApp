@@ -266,7 +266,7 @@ function onStateChanged(user) {
    
    
   } else {
-   document.getElementById('imgProfile').src = 'img/user.svg';
+   document.getElementById('imgProfile').src = 'user.svg';
    document.getElementById('imgProfile').title = '';
    
    document.getElementById('lnkSignIn').style = '';
